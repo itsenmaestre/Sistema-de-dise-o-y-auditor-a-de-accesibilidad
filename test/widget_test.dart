@@ -14,7 +14,7 @@ void main() {
     await tester.pumpWidget(const ProviderScope(child: App()));
 
     expect(find.text('Mis colores'), findsOneWidget);
-    expect(find.text('Colores de cabello'), findsOneWidget);
-    expect(find.text('Usuarios'), findsOneWidget);
+    expect(find.text('COLORES DE CABELLO'), findsOneWidget);
+    expect(find.text('USUARIOS'), findsOneWidget);
   });
 }
